@@ -4,7 +4,7 @@ date = 2024-02-10T10:59:59-08:00
 +++
 ## Hello
 
-For the last year and a half, I've used josephriddle.com as a playground where I've:
+For the last year and a half, I've used [josephriddle.com](https://josephriddle.com) as a playground where I've:
 - Tracked bookmarks in the forms of "pins"
 - Tracked the books I've read
 - Followed my favorite RSS feeds
