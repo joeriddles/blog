@@ -1,0 +1,4 @@
+baseURL = 'https://josephriddle.com/'
+languageCode = 'en-us'
+title = 'Joseph Riddle'
+theme = 'ananke'
