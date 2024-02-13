@@ -1,6 +1,7 @@
 +++
 title = 'The Stress of Unclear Expectations'
 date = 2024-02-12T15:26:33-08:00
+lastmod = 2024-02-12T15:26:33-08:00
 +++
 
 Unclear expectations can be awesome. They can feel liberating for a while, like the world is your oyster and you can take on any and all challenges!
