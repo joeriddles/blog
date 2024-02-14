@@ -3,7 +3,7 @@ title = 'An Ode to Firefox'
 date = 2024-02-13T19:36:35-08:00
 +++
 
-I've used Firefox as my daily driver for web browsing for several years now. I don't remember exactly when or why I made the switch from Chrome, but it was probably in the hacker spirit.
+I've used Firefox as my daily driver for web browsing for several years now. I don't remember exactly when or why I made the switch from Chrome, but it was probably in the [hacker spirit](https://en.wikipedia.org/wiki/Hacker_culture).
 
 Having used Firefox for the last few years, it's hard to imagine using any other browser day-to-day, even [Arc](https://arc.net/) which seems to be the new hotness. I'm tempted to play with [Ladybird](https://awesomekling.github.io/Ladybird-a-new-cross-platform-browser-project/), but that's more from a technical interest than anything
 
