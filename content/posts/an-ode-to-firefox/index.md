@@ -5,7 +5,7 @@ date = 2024-02-13T19:36:35-08:00
 
 I've used Firefox as my daily driver for web browsing for several years now. I don't remember exactly when or why I made the switch from Chrome, but it was probably in the [hacker spirit](https://en.wikipedia.org/wiki/Hacker_culture).
 
-Having used Firefox for the last few years, it's hard to imagine using any other browser day-to-day, even [Arc](https://arc.net/) which seems to be the new hotness. I'm tempted to play with [Ladybird](https://awesomekling.github.io/Ladybird-a-new-cross-platform-browser-project/), but that's more from a technical interest than anything
+Having used Firefox for the last few years, it's hard to imagine using any other browser day-to-day, even [Arc](https://arc.net/) which seems to be the new hotness. I'm tempted to play with [Ladybird](https://awesomekling.github.io/Ladybird-a-new-cross-platform-browser-project/), but that's more from a technical interest.
 
 Here are some of the features of Firefox that I would find it hard to live without, in no particular order:
 
@@ -28,17 +28,17 @@ I typically activate PiP by hovering over a video and clicking the PiP icon. Aft
 
 Firefox's built-in screenshot tool allows for some really cool web-based screenshots.
 
-You can take a screenshot of a specific HTML element by hovering over it. This is way better than trying to perfectly snip the element using screenshot tools built in to the operating system.
+You can take a screenshot of a specific HTML element by hovering over it. This is way better than trying to perfectly snip the element using screenshot tools built-in to the operating system.
 
 {{< figure src="./images/firefox-screenshot-tool.png" caption="Screenshot-ception" >}}
 
 and the resulting screenshot:
 
-{{< figure src="./images/firefox-screenshot-image.png" caption="Great article, worth a read" >}}
+{{< figure src="./images/firefox-screenshot-image.png" caption="[Great article](https://chriswarrick.com/blog/2024/01/15/python-packaging-one-year-later/), worth a read" >}}
 
 You can also take a screenshot of the full height of a web page by clicking "Save full page". This works _most_ of the time, but can occasionally crash on really large pages.
 
-{{< figure src="./images/firefox-screenshot-tool-full.png" caption="I saved 76 Python pins in 2023" >}}
+{{< figure src="./images/firefox-screenshot-tool-full.png" caption="I saved a [bunch of Python pins](https://app.josephriddle.com/?title=&author=&created_after=2023-01-01T00%3A00&created_before=2023-12-31T23%3A59&new_tags=58) in 2023" >}}
 
 ### Multi-Account Containers
 
