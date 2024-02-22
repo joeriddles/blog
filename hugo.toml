@@ -3,3 +3,6 @@ languageCode = 'en-us'
 title = 'Joseph Riddle'
 theme = 'PaperMod'
 enableEmoji = true
+
+[params]
+  comments = true
