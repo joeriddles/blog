@@ -14,7 +14,12 @@ enableEmoji = true
   url = '/posts/'
   weight = 10
 [[menu.main]]
+  identifier = 'ideas'
+  name = 'Ideas'
+  url = '/ideas/'
+  weight = 20
+[[menu.main]]
   identifier = 'tags'
   name = 'Tags'
   url = '/tags/'
-  weight = 20
+  weight = 30
