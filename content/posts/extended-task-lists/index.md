@@ -1,6 +1,7 @@
 +++
 title = 'Extended Task Lists'
 date = 2024-02-25T12:26:30-08:00
+tags = ["Today"]
 +++
 
 I've been using [Obsidian](https://obsidian.md/) as my note taking app for the [past several months]({{< ref "/hello" >}}). Before that, I would typically just pop open VS Code with a markdown file. Over time, I developed my own system for managing notes and, eventually, my own [plugin](https://obsidian.md/plugins?search=Extended%20Task%20Lists).

@@ -2,6 +2,7 @@
 title = 'Lessons Learned from Animators React'
 date = 2024-02-11T20:40:50-08:00
 lastmod = 2024-02-11T20:40:50-08:00
+tags = ["Today"]
 +++
 
 I don't watch a lot of YouTube. I'm subscribed to far more channels than I ever have time to watch, but the channel that I watch most regularly tends to be [Corridor Crew](https://www.youtube.com/@CorridorCrew). The combination of breaking down cool visual special effects, the fun nature of the regular cast, and the relatively short average video length keeps me coming back for more.

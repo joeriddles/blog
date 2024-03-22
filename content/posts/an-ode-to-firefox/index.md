@@ -1,6 +1,7 @@
 +++
 title = 'An Ode to Firefox'
 date = 2024-02-13T19:36:35-08:00
+tags = ["Today"]
 +++
 
 I've used Firefox as my daily driver for web browsing for several years now. I don't remember exactly when or why I made the switch from Chrome, but it was probably in the [hacker spirit](https://en.wikipedia.org/wiki/Hacker_culture).
