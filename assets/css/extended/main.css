@@ -1,7 +1,0 @@
-.post-content li {
-    margin-top: 0px !important;
-}
-
-.post-content li:has(input[type="checkbox"]) {
-    list-style-type: none;
-}
