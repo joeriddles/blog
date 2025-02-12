@@ -1,3 +1,10 @@
+/* vars */
+:root {
+  --highlight: #FFEF00;
+  --serif: ui-serif, serif;
+  --sans-serif: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 /* https://www.joshwcomeau.com/css/custom-css-reset/ */
 /* 1. Use a more-intuitive box-sizing model */
 *, *::before, *::after {
@@ -52,11 +59,34 @@ body {
   max-width: min(600px, 100%);
   margin-inline: auto;
   padding-inline: 4px;
+  padding-bottom: 8px; /* Until there is a footer, leave a little breathing room at the bottom */
 }
 
 /* lobotomized owl :) */
 *+* {
   margin-top: 8px;
+}
+
+/* Breathing room before new sections */
+*+h2 {
+  margin-top: 16px;
+}
+
+/* Hug headers in new sections */
+h2+* {
+  margin-top: 4px;
+}
+
+img+figcaption {
+  margin-top: 4px;
+}
+
+figure+* {
+  margin-top: 16px;
+}
+
+li+li {
+  margin-top: 2px;
 }
 
 pre {
@@ -74,6 +104,28 @@ blockquote {
   padding: 4px;
 }
 
+/* Using semantically as a callout */
+aside {
+  border-left: 2px solid #444;
+  padding: 4px;
+  padding-left: 8px;
+}
+
 s {
   text-decoration-thickness: 1.5px;
+}
+
+figcaption {
+  font-size: 0.95rem;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Fonts */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--sans-serif);
+}
+
+body {
+  font-family: var(--serif);
 }
