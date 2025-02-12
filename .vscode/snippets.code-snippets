@@ -1,0 +1,10 @@
+{
+	"Insert link": {
+		"scope": "html",
+		"prefix": "link",
+		"body": [
+			"<a href=\"$1\">$2</a>$0",
+		],
+		"description": "Insert a link"
+	}
+}
