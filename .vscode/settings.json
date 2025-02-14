@@ -5,4 +5,11 @@
     "–": false,
     "—": false
   },
+  "[html]": {
+    // Minimal HTML editing experience
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.lineNumbers": "off",
+    "editor.rulers": [],
+  }
 }
