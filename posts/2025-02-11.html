@@ -93,7 +93,7 @@ RETURNING *;</code></pre>
     After stepping line-by-line through the <code>internal/codegen/golang</code> package, I realized the error was further upstream, so I set my breakpoints earlier and stepped through the <code>internal/compiler</code> package. Eventually, I reached this line:
   </p>
   
-  <img src="/public/2024-02-11-debug.png" alt="Screenshot of VS Code breakpoint on" style="max-height: 400px;" />
+  <img src="/public/2025-02-11-debug.png" alt="Screenshot of VS Code breakpoint on" style="max-height: 400px;" />
   
   <p>
     It appears that the anaylzer isn't even parsing the <code>RETURNING</code> code, nor the <code>DO UPDATE SET</code> line. I dug into the SQLite docs to get a better understanding of how the <code>UPSERT</code> works. Reading the <a href="https://www.sqlite.org/lang_upsert.html#:~:text=upsert%20is%20not%20standard%20sql."><i>first line</i></a> yields the following:
