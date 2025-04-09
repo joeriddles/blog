@@ -90,6 +90,10 @@ h3+* {
 }
 
 /* Images */
+img {
+  border-radius: var(--radius);
+}
+
 img+figcaption {
   margin-top: 4px;
 }
@@ -111,7 +115,7 @@ pre {
   background-color: var(--bg-gray);
   border-radius: var(--radius);
   overflow-x: auto;
-  padding: 4px;
+  padding: 8px 8px 16px 8px; /* extra padding on bottom for chunky scollbar */
 }
 
 blockquote {
@@ -142,6 +146,12 @@ figcaption {
 /* Fonts */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--sans-serif);
+}
+
+/* title + subtitle */
+h1+h2 {
+  margin-top: 2px;
+  margin-bottom: 16px;
 }
 
 body {
