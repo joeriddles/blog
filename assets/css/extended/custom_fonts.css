@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+}
+
+body {
+  font-family: Inter,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
+  /* https://rsms.me/inter/#features */
+  font-feature-settings: "ss02", "ss08", "dlig", "tnum", "frac", "zero";
+}

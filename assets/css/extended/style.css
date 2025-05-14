@@ -1,0 +1,92 @@
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+  /* Headers hug content closer -- law of spacing */
+  margin-bottom: 4px !important;
+}
+
+/* macOS adds a fat margin to screenshot */
+img.macos-screenshot {
+  margin-bottom: -28px !important;
+}
+
+blockquote {
+  background-color:  #aaaaaa33
+}
+blockquote > *:first-child::before {
+  content: open-quote;
+  /* curly quote */
+  font-feature-settings: "ss03";
+  font-size: 22px;
+  line-height: 16px;
+  margin-right: 0.5;
+}
+blockquote > *:first-child::after {
+  content: close-quote;
+  font-feature-settings: "ss03";
+  font-size: 22px;
+  line-height: 16px;
+  margin-right: 0.5;
+}
+
+/* Using semantically as a callout */
+aside {
+  display: flex;
+  border-left: 2px solid var(--secondary);
+  padding-left: 4px;
+  margin-bottom: var(--content-gap);
+}
+aside::before {
+  content: "ASIDE";
+  letter-spacing: 4px;
+  writing-mode: sideways-lr;
+  display: inline-block;
+  text-align: center;
+  padding-right: 8px;
+  /* tweak center of text content to look more centered */
+  margin-bottom: 1px;
+}
+aside *:last-child {
+  margin-bottom: 0 !important;
+}
+
+
+s {
+  text-decoration-thickness: 1.5px;
+}
+
+figure img {
+  margin-bottom: 0 !important;
+}
+figcaption {
+  font-size: 0.95rem;
+  font-style: italic;
+  text-align: center;
+}
+
+table tr,
+table th,
+table td {
+  border: 1px solid var(--secondary) !important;
+}
+
+/* Kbd */
+/* Hijacked from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd */
+kbd {
+  background-color: #eee;
+  border-radius: 3px;
+  border: 1px solid #b4b4b4;
+  box-shadow:
+    0 1px 1px rgba(0, 0, 0, 0.2),
+    0 2px 0 0 rgba(255, 255, 255, 0.7) inset;
+  color: #333;
+  display: inline-block;
+  font-size: 0.85em;
+  font-weight: 700;
+  line-height: 1;
+  padding: 2px 4px;
+  white-space: nowrap;
+  /* fix screwing up line-height of paragraphs */
+  margin-top: 0px;
+  margin-inline: 2px;
+}

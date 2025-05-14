@@ -1,0 +1,12 @@
+baseURL: https://blog.josephriddle.com/
+title: Blog
+theme: PaperMod
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  UseHugoToc: true
+  ShowToc: true

@@ -5,8 +5,14 @@
     "–": false,
     "—": false
   },
+  "search.exclude": {
+    "**/blog/themes": true,
+  },
   "[html]": {
-    // Minimal HTML editing experience
+  },
+  "[markdown]": {
+    "editor.formatOnSave": true, // format tables
+    // Minimal editing experience
     "editor.minimap.enabled": false,
     "editor.stickyScroll.enabled": false,
     "editor.lineNumbers": "off",
