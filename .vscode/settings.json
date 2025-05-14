@@ -6,7 +6,10 @@
     "—": false
   },
   "search.exclude": {
-    "**/blog/themes": true,
+    "/themes": true,
+  },
+  "files.exclude": {
+    "/themes": true,
   },
   "[html]": {
   },

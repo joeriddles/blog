@@ -10,3 +10,8 @@ markup:
 params:
   UseHugoToc: true
   ShowToc: true
+
+caches:
+  images:
+    # https://gohugo.io/host-and-deploy/host-on-github-pages/
+    dir: ":cacheDir/images"
